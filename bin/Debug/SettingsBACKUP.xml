@@ -1,0 +1,2380 @@
+<?xml version="1.0"?>
+<DrumrollFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="settings_1.xsd" Time="20221103093732907">
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">Theme</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.ThemeSettings, CommonCS">
+        <Property name="Name">Default</Property>
+        <Property name="TextSize">0.5</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">Connection</Property>
+    <Property name="Group">Network</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.NetworkSettings, CommonCS">
+        <Property name="DLBrokerServer">dtna-DlrInfo.prd.freightliner.com</Property>
+        <Property name="DLBrokerPort">48481</Property>
+        <Property name="SiteMinderLogOnLocation">https://dtna-iservices2.prd.freightliner.com/AuthN-Basic-SM</Property>
+        <Property name="TechlaneLocation">https://techlane-dtna.prd.freightliner.com</Property>
+        <Property name="LargeFileServerLocation">http://dtnaacvdl108.freightliner.com</Property>
+        <Property name="EdexServiceLocation">https://edex.daimler.com/</Property>
+        <Property name="UserName" />
+        <Property name="Debug">False</Property>
+        <Property name="RememberUserName">True</Property>
+        <Property name="SaveUploadContentValue">False</Property>
+        <Property name="SaveRawServerFilesValue">False</Property>
+        <Property name="UseManualUnlockDialog">False</Property>
+        <Property name="AutomaticallyDownloadTroubleshootingMaterial">True</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ExcludeByteMessages</Property>
+    <Property name="Group">TraceLog</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ExcludeDebugInfo</Property>
+    <Property name="Group">TraceLog</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ExcludeExceptions</Property>
+    <Property name="Group">TraceLog</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WindowState</Property>
+    <Property name="Group">MainWindow</Property>
+    <Property name="Obj">
+      <Object type="System.Windows.Forms.FormWindowState, System.Windows.Forms">Maximized</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">Location</Property>
+    <Property name="Group">MainWindow</Property>
+    <Property name="Obj">
+      <Object type="System.Drawing.Point, System.Drawing">0, 0</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">Size</Property>
+    <Property name="Group">MainWindow</Property>
+    <Property name="Obj">
+      <Object type="System.Drawing.Size, System.Drawing">940, 692</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">PlacesView</Property>
+    <Property name="Group">MainWindow</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Windows.Forms.ViewTypes, CommonCS">Default</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">PlacesLayout</Property>
+    <Property name="Group">MainWindow</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Windows.Forms.ButtonLayout, CommonCS">ImageBeforeText</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ABS02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ACM02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ACM21T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ACM301T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">APS301T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BESO01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BHM_J1939</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BMS01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BMS201T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BMS301T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BMS401T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BMS501T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BMS601T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BMS701T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BMS801T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BMS901T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CGW_P3</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CGW02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CGW03T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CGW04T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CLCS01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CPC02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CPC04T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CPC2</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CPC302T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CPC501T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CTP01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">DCB01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">DCB02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">DCL101T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">DCMD02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">DCMDR01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">DCMP02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">DCMPR01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">EAPU02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">EAPU03T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">EBS01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ECP01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ECPC01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">EHPS201T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">EHPS401T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ETCM01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">FNPAD01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">HUS01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">HVAC_F01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">HVAC_P01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">HVAC_R01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICC501T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICS01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU3S_M2</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU3S_P3</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU4ME</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICUC01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">IPPC01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MCM</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MCM02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MCM21T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MCM2CT</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MPC01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MPC02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MR201T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MS01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MSF_P3</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MSF01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MUX101B</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MUX201B</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MUX301B</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">PCUMT50E</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">PSM01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">PTI101T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">PTI201T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">PTI301T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">RDF01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">RDF02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SAMCAB_P3</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SAMCHAS_P3</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SAS01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SRRL01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SRRR01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SSAM02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">TCM01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">TCM03T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">TCM05T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">VECU_UDS</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">VRDU01T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">VRDU02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">XMC02T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">XMC202T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">XMC302T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">XMC402T</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1708-0</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1708-128</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1708-130</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1708-136</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1708-146</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">FCC</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1708-200</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ACC</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1708-140</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU3-M2-EPA07</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU4-EPA07</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU3-P3-EPA07</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU4-P3-EPA07</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SDU_D</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SDU_P</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-255</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-33</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">BHM_L</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">CHM_L</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-0</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">NE112ECU</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MT88ECU</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-1</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-61</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">HVAC-P3-F</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-58</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">HVAC-P3-R</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-3</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-23</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU3-M2</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU4Me-P3</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU4Me-WST</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU4Me-24U</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ICU-P3</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">PARKSMART</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">PARKSMARTV2</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-11</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">EXM_L-1</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">EXM_L-2</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">EXM_L-3</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">EXM_L-4</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">EXM_L-5</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SEM-1</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SEM-2</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SEM-3</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SEM-4</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ECC</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SHM</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-42</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">HSV</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-103</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-104</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-105</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-107</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-110</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-230</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-232</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">J1939-243</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">VT_J1939</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">PTIC</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">RollCall</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">Monitoring</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">RollCallPowertrainOnly</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">DoIPRollCall</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">DoIPMonitoring</Property>
+    <Property name="Group">AutoConnect</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ExpirationAge</Property>
+    <Property name="Group">LogFiles</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Common.ExpirationAge, CommonCS">Never</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MaxSummaryLogFileSize</Property>
+    <Property name="Group">LogFiles</Property>
+    <Property name="Obj">
+      <Object type="System.Int32, mscorlib">1</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">MaxSummaryLogAction</Property>
+    <Property name="Group">LogFiles</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Common.LargeSummaryFileOption, CommonCS">Rename</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">UseNameValuePairsToParameterize</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">IgnoreLastServicedCheck</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ExpirationAge</Property>
+    <Property name="Group">TraceLog</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Common.ExpirationAge, CommonCS">OneMonth</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AutoExtractDataPagesAtConnection</Property>
+    <Property name="Group">FleetInformation</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">Family</Property>
+    <Property name="Group">ConnectionDialog</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.StringSetting, CommonCS">
+        <Property name="Value">Engine/All</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SelectedResource_CPC02T</Property>
+    <Property name="Group">ConnectionDialog</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.StringSetting, CommonCS">
+        <Property name="Value">CANHS:USB-Link 2:2:0::</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">McdEnabled</Property>
+    <Property name="Group">Client</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ShowAllResources</Property>
+    <Property name="Group">ConnectionDialog</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SelectedResource_CPC302T</Property>
+    <Property name="Group">ConnectionDialog</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.StringSetting, CommonCS">
+        <Property name="Value">CANHS:USB-Link 2:2:0::</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SelectedResource_MCM21T</Property>
+    <Property name="Group">ConnectionDialog</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.StringSetting, CommonCS">
+        <Property name="Value">CANHS:USB-Link 2:1:0::</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SelectedResource_MS01T</Property>
+    <Property name="Group">ConnectionDialog</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.StringSetting, CommonCS">
+        <Property name="Value">CANHS:USB-Link 2:2:0::</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR002 Vehicle Parameters I</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR003 Common Limiters</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR008 Vehicle Speed Sensor</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR011 Accelerator Pedal</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR015 Cruise Control</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR022 Limiter Governor</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR023 Limiters II</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR024 Vehicle Parameters II</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR030 Engine Configuration</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR031 Vehicle Parameters III</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR040 Anti Tampering</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR046 Diesel Particulate Filter</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR056 Transmission</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR141 Protection Password</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR010 Engine Brake</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR006 Limiters AC and LIM2</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR005 Limiters LIM0 and LIM1</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR001 Communication</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllInstrumentsPanelEcuNodeState.HVAC-P3-F</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllInstrumentsPanelEcuNodeState.J1939-0</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllInstrumentsPanelEcuNodeState.J1939-61</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllInstrumentsPanelEcuNodeState.CPC04T</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllInstrumentsPanelEcuNodeState.J1939-33</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllInstrumentsPanelEcuNodeState.J1939-1</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllInstrumentsPanelEcuNodeState.ICU4Me-P3</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllInstrumentsPanelEcuNodeState.J1939-11</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllInstrumentsPanelEcuNodeState.J1939-3</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllInstrumentsPanelEcuNodeState.J1939-232</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllInstrumentsPanelEcuNodeState.VT_J1939</Property>
+    <Property name="Group">Instruments</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">RegistrationKey</Property>
+    <Property name="Group">Client</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.StringSetting, CommonCS">
+        <Property name="Value">Z518-0RUS0-2022</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">pOmaRGWdCl3S/XWlCyStIgxYhtk/AJ0Up8b9W28y1YY=</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjgQnJJZ6Cpi76LJmJip8Jdnl85uwjx+GtGcBSNeC26y/tUZotw9oRAhY+cfjLMjmwfRsG2m6f6u4RxYMvKrihXT09ASYZSKkECGYq/lGe9fa6OftmnJ+sH6mDSS2bBueUA==</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">bkgHfXE2N4VuqXEONnlR9KHY3SQm5NtDvfhpvWkt3u4=</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjgQnJJZ6Cpi76LJmJip8Jdnl85uwjx+GtGcBSNeC26y/tUZotw9oRAhY+cfjLMjmwRW4SG6VahPXlHs9FKj82+uBE5RNtmcl03EXwgAYFw78FTw+4a5IcUIhxP17JJ/XHw==</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ze+P+mm8xk4qUMFSkzI33wgxc53xYuHmXbyKz2tsLXE=</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjgQnJJZ6Cpi76LJmJip8Jdnl85uwjx+GtGcBSNeC26y/tUZotw9oRAhY+cfjLMjmwQaDFqS2qate9/wEYZAN69vADfYWZynR4P9plartkijvB8uKXvELB52ZxWMHdHO35g==</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">53zh/vPfTI+JlaEyiJ7ORKB7Qyq73VectImhCy8JidgDiNRVJXnvn1qXvMeYjUHAE0qoq5xXkhiuBiBiMn1PJ9L+AXA9UXqbAQ43gzZJSjXoWxZFbmcNF2F8U20bISZr</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjgQnJJZ6Cpi76LJmJip8Jdnl85uwjx+GtGcBSNeC26y/tUZotw9oRAhY+cfjLMjmwY0dEQ4jOMraLEwDmS7VJUnV0EHTOdE43rEKZvCHbmhpFj6uwy1N4KBZE3bv3uKVPg==</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">x4oX1PIWT7oECYr1vxFZVfN5YfWNxItAAs+pA5zMcv0=</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjgQnJJZ6Cpi76LJmJip8JdlNcKyuETWGx5R8aglJ0VUZSF5JWMjzJO1f0/dzM1xFz02kZVKbfh2ihkS7Kc92BoLAMjiA2mJ2r7eD3r4JVrMKOIHbBRyA/CTQmlz0NmFn05lGW9Q6VxcOafeA6CbMz08=</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">yUwOiSkES7yAfZR35X9SskLmpeDPuKUXnGD4jmsOOWQYtBahuxS024v2xUxZmZmaQG7/TLc8PPHGb9E0muhHfA==</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjgQnJJZ6Cpi76LJmJip8JdlNcKyuETWGx5R8aglJ0VUZSF5JWMjzJO1f0/dzM1xFz02kZVKbfh2ihkS7Kc92BoLAMjiA2mJ2r7eD3r4JVrMKOIHbBRyA/CTQmlz0NmFn05lGW9Q6VxcOafeA6CbMz08=</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">k8wnPV7s8t/wHzFXDNluSXxqfI7uvkYVegPBfuUCoE0=</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjkb7Zd8BYPh980h6LXi4x4xnYXPs+CUd98QoM/CDfM+7rQvjW9gB8eGGDTYmuc8XxezD3IAj1NsIKmEPBLCfKBgAfoYkgZcZCYJe21Q60W0M2leS/hhBhceukQgQlwodbqcwFfbgDw7+1g9RgjSSQoNtVk1V+30SltAVm2bNnyMqwIqxzeczD9QbmQ7etOxqowX6LcQOCfnOdQkW3r8aJ43e88OasB0P3gh0xk2vVk9uNWX/zU6u8CCzE3Dxu9fHNTChXCrDq17it+lh5cjlqPr74M5dVACYtT8Re+Trcg0b</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">dp2TScoAjO0tWh85NNlySQ==</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjgQnJJZ6Cpi76LJmJip8JdlNcKyuETWGx5R8aglJ0VUZSF5JWMjzJO1f0/dzM1xFz02kZVKbfh2ihkS7Kc92BoLo2VkXaJpRW7WyeD6Dw2FGVG4w/0b5uCs3ADCyE5Pg3rrw2R4ADT2ejms3BlmXNHgZi/LFjyrmZRJJDS+lNxms</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">Higmy2mK3CiLPxu5iJS6NA==</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjgQnJJZ6Cpi76LJmJip8JdlJI+IWNavRbgxY3yMhvCYTK8e1Lklzii5OPAxuBUrQjoDX0s4XkRIM2GjolOQyK5KPptKfNwENnhXiVvYk758Xq87tm2yeYnKx+Eeca5H0FQ==</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">6LStpfKVKj37EXc1bflpEy5JhtNE5tfpMWYH3/o2Imk=</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjkb7Zd8BYPh980h6LXi4x4xnYXPs+CUd98QoM/CDfM+7rQvjW9gB8eGGDTYmuc8XxezD3IAj1NsIKmEPBLCfKBgAfoYkgZcZCYJe21Q60W0M2leS/hhBhceukQgQlwodbqcwFfbgDw7+1g9RgjSSQoNtVk1V+30SltAVm2bNnyMqwIqxzeczD9QbmQ7etOxqo43PwRrJs5b52ACJDevYtivtBpJKgHRud9htS6b15M4HANjONzZFtMnHTn6qMmIExgt24AvntyH/Up6z5cCTCjmAb1xq3gVHJUkw6ea7JxgAPzXUTP/ki+6CyID7Z8a5xW6L6m5l/hEI9uvV73mfFiYizHc8JaOUWx3svnNuIvw/qodks8/NxJQyx2Fvs+TetKJDVRoVWw31IpwdWMMudG0Bso2cIUJztuNvBA47xG0WanHTK1DSXh4sJcclRnt8njytZxPBfrEwbw4VMfkpeRtXvKD2xM3FkoVPysNpRoZI72i34UURzbnVkV8ceV4Tkw==</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">cA+dqNvRVQJVug9LCUwCo2MwPWsJMHxf5gsKOPwjaF0domkHEN9SuwZUZZOjG0oDgmpDibamo5hxIt2taYWe9A==</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjkb7Zd8BYPh980h6LXi4x4xnYXPs+CUd98QoM/CDfM+7rQvjW9gB8eGGDTYmuc8XxezD3IAj1NsIKmEPBLCfKBgAfoYkgZcZCYJe21Q60W0M2leS/hhBhceukQgQlwodbqcwFfbgDw7+1g9RgjSSQoNtVk1V+30SltAVm2bNnyMqwIqxzeczD9QbmQ7etOxqo+UTvKhN+b/YzfNjp9r27UMrplpabtFcWGhSZ5Rvb3yPTrthmSL464nz7nvBQZRhwDMnLt5kEYSC7pqqXHy50A7suQ7x2Y8WYrGYT129NV2M</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">k8wnPV7s8t/wHzFXDNluSRvqkFdpcHQ/Nu5zdcFvmzq84T31J1FTUYmzYSBTN36L</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjkb7Zd8BYPh980h6LXi4x4xnYXPs+CUd98QoM/CDfM+7rQvjW9gB8eGGDTYmuc8XxezD3IAj1NsIKmEPBLCfKBgAfoYkgZcZCYJe21Q60W0M2leS/hhBhceukQgQlwodbqcwFfbgDw7+1g9RgjSSQoNtVk1V+30SltAVm2bNnyMqwIqxzeczD9QbmQ7etOxqo43PwRrJs5b52ACJDevYtivbZlvJZnXYithDM7lpx0eFEDirOMcELVTxTalET8xe3666hR6yV9OwJEYgjl4sAIjwRpX4+Ac1/KyU0ikkpSqC+3T3HKvV7PNxX4QeAPD2yw==</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">/MNQw9RM/EqskwNvnDgBifwUYpIK49YMAKgHTNCJvLU=</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjkb7Zd8BYPh980h6LXi4x4xnYXPs+CUd98QoM/CDfM+7rQvjW9gB8eGGDTYmuc8XxezD3IAj1NsIKmEPBLCfKBgAfoYkgZcZCYJe21Q60W0M2leS/hhBhceukQgQlwodbqcwFfbgDw7+1g9RgjSSQoNtVk1V+30SltAVm2bNnyMqwIqxzeczD9QbmQ7etOxqowDWUYHD7JWHpp2NafL+2KfdmqhYn9hZhPKeXQ6mbA+Go5YSppjW+elkj46YSbxVuQ==</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">/MNQw9RM/EqskwNvnDgBiYjhkQqVefDy1K3HI6qe55c=</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjkb7Zd8BYPh980h6LXi4x4xnYXPs+CUd98QoM/CDfM+7rQvjW9gB8eGGDTYmuc8XxezD3IAj1NsIKmEPBLCfKBgAfoYkgZcZCYJe21Q60W0M2leS/hhBhceukQgQlwodbqcwFfbgDw7+1g9RgjSSQoNtVk1V+30SltAVm2bNnyMqwIqxzeczD9QbmQ7etOxqowDWUYHD7JWHpp2NafL+2KfdmqhYn9hZhPKeXQ6mbA+Go5YSppjW+elkj46YSbxVuQ==</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">fNacfiFY887kBomMOinqz8MQoQG0g38uQxUuV4ZlKlw=</Property>
+    <Property name="Group">el2w+NWODpjhNlRvSRRtrA==</Property>
+    <Property name="Obj">k1cLq5AbBx1n22MMbxcNjgQnJJZ6Cpi76LJmJip8JdlNcKyuETWGx5R8aglJ0VUZSF5JWMjzJO1f0/dzM1xFz02kZVKbfh2ihkS7Kc92BoJRNZPGBMsmNgdnn17x2CwDUO9qBOO3SvBrIioQo7gOSpOZCaniKXVhWCCSbTTzaN/4hMhzJhg951qIbi2o8DcB</Property>
+    <Property name="Encrypt">True</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">Location</Property>
+    <Property name="Group">BusMonitorWindow</Property>
+    <Property name="Obj">
+      <Object type="System.Drawing.Point, System.Drawing">234, 234</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">Size</Property>
+    <Property name="Group">BusMonitorWindow</Property>
+    <Property name="Obj">
+      <Object type="System.Drawing.Size, System.Drawing">702, 579</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">ShowTimeAsAbsolute</Property>
+    <Property name="Group">BusMonitorWindow</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">Filter</Property>
+    <Property name="Group">BusMonitorWindow</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.StringSetting, CommonCS">
+        <Property name="Value">(all)</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">Resource</Property>
+    <Property name="Group">BusMonitorWindow</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.StringSetting, CommonCS">
+        <Property name="Value">CAN1</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">SelectedResource_CPC04T</Property>
+    <Property name="Group">ConnectionDialog</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.StringSetting, CommonCS">
+        <Property name="Value">CANHS:USB-Link:1:0::</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.MCM21T - Motor Control Module 2.1.PGR002_SensorConfig</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningCloseConnections</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningCloseLogFile</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningLanguageChangeNeedsRestart</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningMinimumRequiredRam</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_49XESTM</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningAutoBaudRateUnavailable</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningRollCallDisabled</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_P3TM</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0203</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0140</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0000</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0084</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0010</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0015</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0009</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0184</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0202</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0211</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0193</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0200</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_DDC-SVC-MAN-0191</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">WarningPslProvider_P4ESTM</Property>
+    <Property name="Group">Warnings</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">LogFiles</Property>
+    <Property name="Group">OpenDirectory0</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.StringSetting, CommonCS">
+        <Property name="Value">C:\ProgramData\Detroit Diesel\Drumroll\Log Files</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">LogFiles</Property>
+    <Property name="Group">RecentLogFiles0</Property>
+    <Property name="Obj">
+      <Object type="DetroitDiesel.Settings.StringSetting, CommonCS">
+        <Property name="Value">C:\ProgramData\Detroit Diesel\Drumroll\Log Files\(Unknown) 11-2-2022 0418.34.DrumrollLog</Property>
+      </Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR004 Surge Damp</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR007 PTO Control on PTO and CC pin</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR012 Optimized Idle</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR014 Relay 3 and 4</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR016 Relay 1 and Starter Lockout</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR017 Idle and PTO Shutdown</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR020 Remote Accelerator Pedal</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR021 Droop Control Mode</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR026 Vehicle Identification Number</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR027 Fleet Management</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR028 Itpm I</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR037 Fault Management</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR038 Vehicle Speed Governor</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR039 Vehicle Mass</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR042 Dss</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR047 Ag</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR048 Ptconf</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR049 Reserved</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR050 HDMS Fan</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR051 Idle Volume</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR053 Soft Cruise</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR054 Predictive Cruise Control</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR055 Transmission Retarder</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR057 PMC I</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR063 XTPC</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR064 IPPC</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR065 SPS</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR066 RAT II</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR067 LIM III</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR068 SUR II</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR069 XSS</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR070 XSS II</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR071 AG II</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.CPC04T - Common Powertrain Controller 4.PGR072 FAN II</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.MCM21T - Motor Control Module 2.1.PGR001_PropValve</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">True</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.MCM21T - Motor Control Module 2.1.PGR004_EngineConfig</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.MCM21T - Motor Control Module 2.1.PGR005_EOL</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.MCM21T - Motor Control Module 2.1.PGR007_DPFConfig</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.MCM21T - Motor Control Module 2.1.PGR046_EngineConfig</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.MCM21T - Motor Control Module 2.1.PGR048_EngineConfig5</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+  <Object type="DetroitDiesel.Settings.SettingInformation, CommonCS">
+    <Property name="Name">AllParametersListNodeState.MCM21T - Motor Control Module 2.1.PGR054_EngineConfig2</Property>
+    <Property name="Group">Parameters</Property>
+    <Property name="Obj">
+      <Object type="System.Boolean, mscorlib">False</Object>
+    </Property>
+    <Property name="Encrypt">False</Property>
+  </Object>
+</DrumrollFile>
